@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 94%);
+    font-family: 'Poppins', sans-serif;
+}
+
+#theDiv {
+    background-color: hsl(0, 0%, 100%);
+    padding: 50px;
+    width: 40%;
+    border-radius: 4% 4% 30% 4%;
+}
+
+#header {
+    color: hsl(0, 1%, 44%);
+    display: flex;
+    gap: 4%;
+}
+
+#dayDiv, #monthDiv, #yearDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 13.5px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 125px;
+    color: hsl(0, 0%, 8%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 15px 0px 15px 20px;
+    border: 1px solid hsl(0, 0%, 86%);
+    border-radius: 8%;
+}
+
+::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+#header div p {
+    margin-top: 9px;
+    font-size: 12.5px;
+    font-weight: 400;
+    font-style: italic;
+    }
+
+#day:hover, #month:hover, #year:hover {
+    border-color: hsl(259, 100%, 65%);
+}
+
+#arrow:hover {
+    background-color: hsl(0, 0%, 8%);
+}
+
+#mid {
+    display: flex;
+    align-items: center;
+}
+
+#line {
+    background-color: hsl(0, 0%, 86%);
+    width: 100%;
+    height: 1px;
+}
+
+#arrow {
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+#main {
+    margin-bottom: 20px;
+}
+
+#main p{
+    font-size: 90px;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: -35px
+}
+
+#main span {
+    color: hsl(259, 100%, 65%);
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (max-width: 375px) {
+    #theDiv {
+        margin: 2px;
+        width: 80%;
+        padding: 20px;
+    }
+  
+    #header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+  
+    label {
+        font-size: 12px;
+    }
+  
+    input {
+        font-size: 24px;
+        padding: 10px 0px 10px 15px;
+    }
+  
+    #header div p {
+        font-size: 10px;
+    }
+  
+    #main p {
+        font-size: 40px;
+        margin-bottom: -10px;
+    }
+  }
+  
