@@ -43,7 +43,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Check the live HERE](https://your-live-site-url.com)
+- Live Site URL: [Check the live here!](https://imfantin.github.io/Age-Calculator/)
 
 ## My process
 
