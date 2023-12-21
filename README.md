@@ -56,7 +56,7 @@ Users should be able to:
 
 ### What I learned
 
-Evem simple projects will make you wrap some ideas to complete it. 
+Even simple projects will make you wrap some ideas to complete it. 
 
 ```function isValidDate(day, month, year) {
     let maxDaysInMonth = new Date(year, month, 0).getDate();
